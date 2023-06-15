@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>豐邑喜來登大飯店</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     <style>
-        #imgheader{
-            height: 50vh;
-        }
+      #headbox{
+        height: 300px;
+        background-color:darkcyan;
+        color: orange;
+        text-align: center;
+      }
         #imgprofile{
             width: 300px;
             height: 300px;
@@ -24,31 +27,27 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">關於</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">首頁</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">最新活動</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  設拖介紹
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">客房介紹</a></li>
+                  <li><a class="dropdown-item" href="#">餐飲介紹</a></li>
+                  <li><a class="dropdown-item" href="#">兒童遊戲</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -58,8 +57,10 @@
           </div>
         </div>
       </nav>
-    <img class="d-block w-100" src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="imgheader" alt="">
-
+    <div class="d-block w-100"id="headbox">
+      <h1 style="padding-top: 3rem;">豐邑喜來登大飯店</h1>   
+  </div>
+ 
     <img class="d-block" src="https://images.pexels.com/photos/5551654/pexels-photo-5551654.jpeg?auto=compress&cs=tinysrgb&w=1600" id="imgprofile" alt="">
       
     <div class="mt-3 container">
@@ -68,8 +69,16 @@
           <div class="card">
             <img src="https://www.sheraton-hsinchu.com/files/restaurant_16825853521313hm984_l.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">日式優雅與鐵板的舞動</h5>
+              <p class="card-text">時令、創新、不容妥協是迎月庭的準則，您可在此盡情享受各種新鮮海藏及特殊食材組合而成的驚奇畫作，除了日式料理的優雅之外，我們亦將鐵板料理融入其中，讓用餐不只是滿足生理，更是一場探索動與靜的絕妙旅程。
+                <br>
+                萬豪旅享家注意事項：
+                <br>
+                1.信用卡、豐邑卡及健身中心會員等優惠無法與萬豪旅享家折扣合併使用。
+                <br>
+                2.部分信用卡折扣無法適用萬豪旅享家點數累積。
+                <br>
+                3.參考網站：Restaurants + Bars Benefits</p>
             </div>
           </div>
         </div>
@@ -77,8 +86,8 @@
           <div class="card">
             <img src="https://www.sheraton-hsinchu.com/files/news_1683220051131jm6i39_l.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">2023蟲蟲維基兒童營 Bugs Discovery Camp</h5>
+              <p class="card-text">2023暑假新竹喜來登推出全新主題－蟲蟲維基兒童營！炎炎夏日不用出走戶外，就能近距離了解昆蟲的十萬個為什麼，除了自製飼養箱之外，還可以親手製作甲蟲標本，喜愛大自然的小朋友們千萬不可錯過喔！</p>
             </div>
           </div>
         </div>
@@ -86,8 +95,10 @@
           <div class="card">
             <img src="https://www.sheraton-hsinchu.com/files/room_1476959859wh7svq60_l.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">豪華客房</h5>
+              <p class="card-text">最佳旅行體驗是我們的承諾
+                我們提供一系列的禮遇、設施和服務，打造輕鬆無憂的出遊體驗，您的煩惱只在於如何分配娛樂及睡眠時間，因為我們絕佳方便的網路與影音商務辦公配置及喜來登甜夢體驗就是有如此魅力。
+                客房設計以自然與科技為設計主軸；溫馨的木皮搭配草綠壁紙、多層次的田野花紋地毯及如花朵綻放似的壁燈，搭配浴室高科技電動式半透明捲簾，讓自然與現代科技融合唯一體。浴室內採用金黃色與綠色系的進口石材雙色搭配，讓空間簡約又不失華麗貴氣。</p>
             </div>
           </div>
         </div>
@@ -95,8 +106,10 @@
           <div class="card">
             <img src="https://www.sheraton-hsinchu.com/files/page_166479514212lqu5341_l.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h5 class="card-title">喜波波樂園</h5>
+              <p class="card-text">從您步入喜波波樂園的那一刻起便與世界脫離，來到繽紛歡樂的造夢空間，體驗截然不同的喜來登精彩時光。
+
+                喜波波樂園包含波波叢林及波波夢幻島，由新竹豐邑喜來登大飯店與騎士堡兒童育成中心聯手打造孩子的造夢場所，融合飯店吉祥物─鳳梨獅「喜波波」及叢林風主題，由喜波波坐鎮並帶領飯店專業休憩團隊進駐，提供各類室內戶外的親子休憩活動，所有活動皆由專業團隊踩線、設計，讓家長安心又填飽寶貝的好奇心。</p>
             </div>
           </div>
         </div>
@@ -104,8 +117,9 @@
             <div class="card">
               <img src="https://www.sheraton-hsinchu.com/files/restaurant_1476961339wh7u7334_l.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">Fresh Corner 紛鳥輕食麵包坊</h5>
+                <p class="card-text">Fresh Corner提供每天早上現做的麵包、手工優格、手工三明治、沙拉、和湯品。每一個選擇，都是新竹喜來登飯店的主廚團隊親手設計打造，主打新鮮、健康、高品質的嚴選食材，不過份調味，還給你食材本身應該有的味道。只用最好的食材，給最好的你。
+                  <br>希望每個人都能 ”Eat Well, Feel Good” 。</p>
               </div>
             </div>
           </div>
@@ -158,8 +172,12 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          新竹縣竹北市光明六路東一段263號 <br><hr>
+          <div style="text-align: left;">
+          In order to continually improve our website, we collect your information only with your consent; we only collect the minimum amount of personal information that is necessary to fulfill the purpose of your interaction with us; we don't sell it to third parties; and we only use it as this Privacy Statement describes. By continuing to use the website you are accepting the use of these cookies. Please read our privacy policy.
+        </div>
+          <br>
+          © 2023, Grace Hospitality Management Co., Ltd, an affiliate of the Fong-Yi Group豐邑機構所屬承恩餐旅管理顧問股份有限公司, All rights reserved.
         </div>
         <!-- Copyright -->
       </footer>
